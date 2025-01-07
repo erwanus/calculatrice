@@ -17,12 +17,30 @@
         <div class="form-infos">
             <h1>Calculatrice prêt immobilier</h1>
             <form>
-                <div class="input-amount">
+                <div class="inputs">
                     <label for="amount">Montant emprunté</label>
                     <input type="text" name="amount" id="amount" placeholder="100 000" required>
                     <div class="input-icon">€</div>
                 </div>
+
+                <div class="inputs">
+                    <label for="interest">Taux nomial</label>
+                    <input type="text" name="interest" id="interest" placeholder="1.2" required>
+                    <div class="input-icon">%</div>
+                </div>
+
+                <div class="inputs">
+                    <label for="interest">Durée de remboursement</label>
+                    <input type="text" name="interest" id="interest" placeholder="15" required>
+                    <div class="input-icon">an(s)</div>
+                </div>
+
+                <button type="submit" id="calculate">Calculer</button>
             </form>
+        </div>
+
+        <div class="tab">
+            
         </div>
     </main>
 

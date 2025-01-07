@@ -4,72 +4,97 @@
 }
 
 header img {
-    width: 161px;
-    height: 56px;
+    width: 8.39vw;
+    height: 2.92vw;
     display: block;
-    margin: 80px auto;
+    margin: 2.17vw auto;    
 }
 
 .form-infos {
-    width: 1000px;
-    height: 510px;
-    margin: 257px auto;
-    border: 1px solid #234B68;
-    border-radius: 10px;
+    width: 52.08vw;
+    height: auto;
+    margin: 3.39vw auto;
+    border: 0.052vw solid #234B68;
+    border-radius: 0.52vw
 }
+    
 
 .form-infos h1 {
     font-family: sans-serif;
     font-weight: 700;
+    font-size: 2.08vw;
     color: #234B68;
     text-align: center;
-    margin-top: 43.15px;
+    margin-top: 2.25vw;    
 }
 
 .form-infos form {
-    width: 523px;
-    height: 133px;
-    border: 1px solid transparent;
-    margin-top: 43.65px;
+    width: 37.24vw;
+    height: auto;
+    border: 0.052vw solid transparent;
+    margin-top: 2.27vw;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .form-infos label {
-    font-size: 20px;
+    font-size: 1.4vw;
     font-family: sans-serif;
     color: #234B68;
     font-weight: 700;
     white-space: nowrap;
-    padding: 10px;
+    padding: 0.52vw;
 }
 
 .form-infos input {
-    width: 230px;
-    padding: 10px;
-    margin-left: 80px;
+    width: 11.98vw;
+    padding: 0.52vw;
     outline: none;
-    border: #234B68 2px solid;
-    box-shadow: 0px 4px 4px 0px #4B5563;
-    font-size: 16px;
+    border: #234B68 0.10vw solid;
+    box-shadow: 0vw 0.21vw 0.21vw 0vw #4B5563;
+    font-size: 0.83vw;
+    margin-left: auto;
+}
 
-}  
-
-.input-amount {
+.inputs {
     display: flex;
+    padding: 1vw;
 }
 
 .input-icon {
-    background-color: #1E3A5F; /* Couleur de fond */
-    color: white; /* Couleur du texte */
-    padding: 14px;
-    font-size: 16px;
+    background-color: #1E3A5F;
+    color: white;
+    padding: 0.73vw;
+    font-size: 0.83vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    box-shadow: 0px 4px 4px 0px #4B5563;
-    height: 100%;
-    border-radius: 0 10px 10px 0;
-    margin-left: -1px;
+    box-shadow: 0vw 0.21vw 0.21vw 0vw #4B5563;
+    border-radius: 0 0.52vw 0.52vw 0;
+    margin-left: -0.052vw;
+    font-family: sans-serif;
+}
+
+#calculate {
+    width: 14.42vw;
+    height: 3.3vw;
+    border-radius: 0.52vw;
+    color: white;
+    background-color: #1E3A5F;
+    font-family: sans-serif;
+    font-size: 1.1vw;    
+    margin: 3.39vw auto;
+    display: block;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0vw 0.21vw 0.21vw 0vw #4B5563;
+    transition: all 0.3s ease;
+}
+
+#calculate:hover {
+    background-color: #254570;
+}
+
+.tab {
+    
 }
