@@ -45,6 +45,7 @@ header img {
 }
 
 .form-infos input {
+    width: auto;
     outline: none;
     border: #234B68 0.10vw solid;
     box-shadow: 0vw 0.21vw 0.21vw 0vw #4B5563;
@@ -57,9 +58,17 @@ header img {
     padding: 1vw;
 }
 
+.input-custom {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+
+}
+
 .input-icon {
     background-color: #1E3A5F;
     width: 5%;
+    height: auto;
     color: white;
     padding: 0.73vw;
     font-size: 0.83vw;
@@ -156,4 +165,12 @@ header img {
 
 #download:hover {
     background-color: #254570;
+}
+
+#fields-error {
+    color: #FF822E;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+    text-align: center;
+    visibility: visible;
 }

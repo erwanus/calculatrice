@@ -1,0 +1,97 @@
+/* Version Mobile */
+@media (max-width: 768px) {
+    header img {
+        width: 40vw;
+        height: auto;
+        margin: 5vw auto;    
+    }
+
+    .form-infos {
+        width: 90%;
+        margin: 5vw auto;
+        padding: 2vw;
+    }
+
+    .form-infos h1 {
+        font-size: 5vw;
+        margin-top: 4vw;
+    }
+
+    .form-infos form {
+        width: 100%;
+        margin-top: 4vw;
+    }
+
+    .form-infos label {
+        font-size: 3vw;
+        padding: 2vw;
+
+    }
+
+    .form-infos input {
+        font-size: 3.5vw;
+        margin-left: 0;
+        width: auto;
+        height: 2vw;
+        padding: 2vw;
+        border-top-left-radius: 0.5vw;
+        border-bottom-left-radius: 0.5vw;
+    }
+
+    .inputs {
+        padding: 2vw;
+        align-items: center;
+        flex-direction:column;
+    }
+
+    .input-custom {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-icon {
+        width: 5%;
+        height: 2.2vw;
+        padding: 2vw;
+        font-size: 3vw;
+        border-top-right-radius: 0.5vw;
+        border-bottom-right-radius: 0.5vw;
+    }
+
+    #calculate {
+        width: 80%;
+        height: 10vw;
+        font-size: 4vw;    
+        margin: 5vw auto;
+    }
+
+    .tab {
+        width: 90%;
+        margin: 5vw auto;
+        padding: 2vw;
+    }
+
+    .tab h2 {
+        font-size: 4vw;
+        padding: 3vw;
+    }
+
+    .tab table thead th,
+    .tab table tbody th {
+        font-size: 2.1vw;
+        padding: 2vw;
+    }
+
+    #download {
+        width: 70%;
+        height: 10vw;
+        font-size: 4vw;
+        margin: 5vw auto;
+    }
+
+    #fields-error {
+        font-size: 4vw;
+    }
+}

@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="assets/logo.png">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style-mobile.css">
     <script src="js/script.js defer"></script>
     <title>Calculatrice</title>
 </head>
@@ -19,21 +20,29 @@
             <form>
                 <div class="inputs">
                     <label for="amount">Montant emprunté</label>
-                    <input type="text" name="amount" id="amount" placeholder="100 000" required>
-                    <div class="input-icon">€</div>
+                    <div class="input-custom">
+                        <input type="text" name="amount" id="amount" placeholder="100 000" required>
+                        <div class="input-icon">€</div>
+                    </div>
                 </div>
 
                 <div class="inputs">
                     <label for="interest">Taux nomial</label>
-                    <input type="text" name="interest" id="interest" placeholder="1.2" required>
-                    <div class="input-icon">%</div>
+                    <div class="input-custom">
+                        <input type="text" name="interest" id="interest" placeholder="1.2" required>
+                        <div class="input-icon">%</div>
+                    </div>
                 </div>
 
                 <div class="inputs">
                     <label for="interest">Durée de remboursement</label>
-                    <input type="text" name="interest" id="interest" placeholder="15" required>
-                    <div class="input-icon">an(s)</div>
+                    <div class="input-custom">
+                        <input type="text" name="interest" id="interest" placeholder="15" required>
+                        <div class="input-icon">an(s)</div>
                 </div>
+                </div>
+
+                <div id="fields-error">Veuillez remplir tous les champs !</div>
 
                 <button type="submit" id="calculate">Calculer</button>
             </form>
