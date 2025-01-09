@@ -1,8 +1,6 @@
 const calculateBtn = document.querySelector("#calculate");
 calculateBtn.addEventListener("click", function(event) {
     event.preventDefault();
-    const table = document.querySelector(".tab");
-    table.style.display = "block";
 
     const amount = document.querySelector("#amount");
     const interestInput = document.querySelector("#interest");
@@ -30,6 +28,8 @@ calculateBtn.addEventListener("click", function(event) {
 
     if (Number(amount.value) && Number(interest) && Number(duration.value) && Number(amount.value) > 0 && Number(interest) > 0 && Number(duration.value) > 0) {
         document.querySelector("#fields-error").style.visibility = "hidden";
+        const table = document.querySelector(".tab");
+        table.style.display = "block";
         const tbody = document.querySelector("tbody");
         tbody.innerHTML = "";
 
