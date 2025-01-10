@@ -25,7 +25,8 @@
     .form-infos label {
         font-size: 3vw;
         padding: 2vw;
-
+        display: flex;
+        justify-content: center;
     }
 
     .form-infos input {
