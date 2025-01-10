@@ -1,0 +1,66 @@
+.tab {
+    width: 62.08vw;
+    height: auto;
+    margin: auto;
+    border: 0.052vw solid #234B68;
+    border-radius: 0.52vw;
+    box-shadow: 0vw 0.21vw 0.21vw 0vw #4B5563;
+    display: none;
+}
+
+.tab h2 {
+    font-family: sans-serif;
+    font-weight: 700;
+    font-size: 1.6vw;
+    color: #234B68;
+    text-align: center;
+    padding: 3vw;
+}
+
+.tab table {
+    width: 100%;
+}
+
+.tab table thead {
+    font-family: sans-serif;
+    font-size: 1vw;        
+    color: #234B68;
+    text-align: center;
+}
+
+.tab table thead th {
+    padding: 1.5vw;    
+    font-weight: 700;
+}
+
+.tab table tbody th {
+    padding: 0.2vw;
+}
+
+.tab table tbody th {
+    font-family: sans-serif;
+    font-size: 1vw;        
+    color: #234B68;
+    font-weight: lighter;
+
+}
+
+#download {
+    width: 14.42vw;
+    height: 3.3vw;
+    border-radius: 0.52vw;
+    color: white;
+    background-color: #1E3A5F;
+    font-family: sans-serif;
+    font-size: 1.1vw;    
+    margin: 3.39vw auto 2vw;
+    display: block;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0vw 0.21vw 0.21vw 0vw #4B5563;
+    transition: all 0.3s ease;
+}
+
+#download:hover {
+    background-color: #254570;
+}

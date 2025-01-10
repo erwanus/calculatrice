@@ -3,16 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="assets/logo.png">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style-mobile.css">
+    <link rel="shortcut icon" href="assets/images/logo.png">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js" defer></script>
-    <script src="js/script.js" defer></script>
+    <script type="module" src="assets/js/script.mjs" defer></script>
     <title>Calculatrice</title>
 </head>
 <body>
     <header>
-        <img src="assets/logo.png">
+        <img src="assets/images/logo.png">
     </header>
 
     <main>
@@ -22,7 +21,7 @@
                 <div class="inputs">
                     <label for="amount">Montant emprunté</label>
                     <div class="input-custom">
-                        <input type="text" name="amount" id="amount" placeholder="100000" required>
+                        <input type="text" name="amount" id="amount" placeholder="100000" required autofocus>
                         <div class="input-icon">€</div>
                     </div>
                 </div>
