@@ -1,10 +1,13 @@
 export function generatePDF() {
-    var downloadButton = document.querySelector('#download');
+    var downloadButton = document.querySelector("#download");
     if (downloadButton) {
         downloadButton.style.display = 'none';
     }
 
     var element = document.querySelector(".tab").cloneNode(true);
+    element.style.width = '42.08vw';
+    element.style.height = 'auto';
+    element.style.border = 'none';
     var logo = document.querySelector('header img').cloneNode(true);
     logo.style.width = '8.39vw';
     logo.style.height = '2.92vw';
