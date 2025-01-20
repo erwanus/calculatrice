@@ -1,4 +1,5 @@
 import { generateAmortizationTable } from "./generateTable.mjs";
+import { generatePDF } from "./generatePDF.mjs";
 import { error, removeError } from "./error.mjs";
 
 const calculateBtn = document.querySelector("#calculate");
@@ -47,4 +48,9 @@ calculateBtn.addEventListener("click", function(event) {
         interestInput.value = "";
         durationInput.value = "";
     }
+});
+
+const downloadBtn = document.querySelector("#download");
+downloadBtn.addEventListener("click", function(event) {
+    generatePDF();
 });

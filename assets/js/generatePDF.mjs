@@ -4,16 +4,13 @@ export function generatePDF() {
         downloadButton.style.display = 'none';
     }
 
-    var element = document.querySelector("tbody").cloneNode(true);
-    var logo = document.createElement('img');
-    logo.src = "assets/logo.png";
-    logo.alt = "Logo de Microlead";
-    logo.style.display = "block";
-    logo.style.margin = "0 auto 20px"; 
-    logo.style.width = "150px"; 
-
-    var header = document.querySelector('.tab h2');
-    header.parentNode.insertBefore(logo, header.nextSibling);
+    var element = document.querySelector(".tab").cloneNode(true);
+    var logo = document.querySelector('header img').cloneNode(true);
+    logo.style.width = '8.39vw';
+    logo.style.height = '2.92vw';
+    logo.style.display = 'block';
+    logo.style.margin = '1vw auto';
+    element.insertBefore(logo, element.firstChild);
 
     html2pdf(element, {
         margin:       [10, 10, 10, 10],
