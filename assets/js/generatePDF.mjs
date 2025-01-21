@@ -12,7 +12,9 @@ export function generatePDF() {
     logo.style.width = '8.39vw';
     logo.style.height = '2.92vw';
     logo.style.display = 'block';
-    logo.style.margin = '1vw auto';
+    logo.style.position = 'absolute';
+    logo.style.top = '4.3vw';
+    logo.style.margin = 'auto';
     element.insertBefore(logo, element.firstChild);
 
     html2pdf(element, {
