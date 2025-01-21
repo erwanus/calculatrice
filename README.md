@@ -1,3 +1,4 @@
+**Présentation rapide**
 Le principe du projet est une calculatrice de prêt immobilier.
 
 **Fonctionnalités :**
