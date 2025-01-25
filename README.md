@@ -1,5 +1,5 @@
-**Calculatrice de prêt immobilier 🏡💰**
-La Calculatrice de prêt immobilier est une application simple et efficace qui permet de simuler les prêts immobiliers en fonction du montant emprunté, du taux nominal et de la durée de remboursement.
+**Calculatrice de prêt immobilier 🏡💰 :**
+## La Calculatrice de prêt immobilier est une application simple et efficace qui permet de simuler les prêts immobiliers en fonction du montant emprunté, du taux nominal et de la durée de remboursement.
 
 **Fonctionnalités ⚙️ :**
 - Champs distincts,📝 : 3 champs pour saisir les informations clés :
