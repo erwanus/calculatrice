@@ -24,4 +24,4 @@
 ![image](https://github.com/user-attachments/assets/a0c3117b-4500-43be-989f-0643846ac71e)
 
 **Auteur 🖋️ :**
-- Ce projet m'a été fournit par [Kevin Niel](https://github.com/kevinniel/).
+- Ce projet est un travail donné par [Kevin Niel](https://github.com/kevinniel/).
