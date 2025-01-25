@@ -96,3 +96,22 @@
         font-size: 4vw;
     }
 }
+
+@media (max-width: 1024px) {
+    header img {
+      width: 12vw;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    header img {
+      width: 15vw;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    header img {
+      width: 20vw;
+    }
+  }
+  
